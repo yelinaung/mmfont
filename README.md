@@ -13,13 +13,13 @@ gem 'mmfont'
 And then execute:
 
 ```bash
-    $ bundle
+$ bundle
 ```
 
 Or install it yourself as:
 
 ```bash
-    $ gem install mmfont
+$ gem install mmfont
 ```
 
 ## Usage

@@ -40,7 +40,7 @@ I am not sure. But of course, Ruby is basically slow, regardless of implementati
 Feel free to send me some bunchmarks.
 
 ## TODO
-- Write TESTS!
+- ~~Write TESTS!~~
 
 ## Contributing
 

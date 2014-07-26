@@ -1,8 +1,10 @@
 require "mmfont/version"
 
+# Mmfont module
 module Mmfont
   # Your code goes here...
   class Converter
+    # Convert given text from unicode to zawgyi
     def uni512zg1(input_text)
       output_text = input_text
       output_text = output_text.gsub(/\u104e\u1004\u103a\u1038/ ,"\u104e")
@@ -113,6 +115,7 @@ module Mmfont
       return output_text
     end # end of uni to zg1
 
+    # Convert given text from zawgyi to unicode
     def zg12uni51(input_text)
       output_text = input_text
       output_text = output_text.gsub(/\u106a/ ,"\u1009")

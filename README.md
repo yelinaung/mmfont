@@ -1,6 +1,6 @@
 # Mmfont
 
-A simple gem which converts zawgyi1 <=> unicode strings.
+A simple gem which converts zawgyi1 <=> unicode strings. It uses the rules from [paytan](https://github.com/trhura/paytan) and basically, the ruby converter.
 
 ## Installation
 

@@ -39,6 +39,9 @@ a.zg12uni51("မဂၤလာပါ")   # returns unicode strings "မင်္�
 I am not sure. But of course, Ruby is basically slow, regardless of implementations, compared to Nodejs, Go, Rust etc. 
 Feel free to send me some bunchmarks.
 
+## TODO
+- Write TESTS!
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/mmfont/fork )

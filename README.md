@@ -1,7 +1,7 @@
 # Mmfont
 
 A simple gem which converts zawgyi1 <=> unicode strings. It uses the rules from [paytan](https://github.com/trhura/paytan) and basically, the ruby converter.
-It's written with TDD. Special thanks to @steveklabnik for his tutorials [How I Start Ruby](http://www.howistart.org/posts/ruby/1).
+It's written with TDD. Special thanks to [@steveklabnik](https://github.com/steveklabnik) for his tutorials [How I Start Ruby](http://www.howistart.org/posts/ruby/1).
 
 [![Build Status](https://travis-ci.org/yelinaung/mmfont.svg)](https://travis-ci.org/yelinaung/mmfont)
 
@@ -47,7 +47,7 @@ Feel free to send me some bunchmarks.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/mmfont/fork )
+1. Fork it ( https://github.com/yelinaung/mmfont )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -1,5 +1,7 @@
 require "minitest/autorun"
 require "mmfont"
+require 'coveralls'
+Coveralls.wear!
 
 class MmfontTest < Minitest::Test
   # unicode converting test

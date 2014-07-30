@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "mmfont"
 
-class MmfontTest < MiniTest::Unit::TestCase
+class MmfontTest < Minitest::Test
   # unicode converting test
   def test_convert_uni512zg1
     assert_equal "မဂၤလာပါ", Mmfont::Converter.new.uni512zg1("မင်္ဂလာပါ")

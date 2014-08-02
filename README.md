@@ -1,9 +1,11 @@
 # Mmfont
 
+[![Build Status](https://travis-ci.org/yelinaung/mmfont.svg)](https://travis-ci.org/yelinaung/mmfont)
+[![Gem Version](https://badge.fury.io/rb/mmfont.svg)](http://badge.fury.io/rb/mmfont)
+
 A simple gem which converts zawgyi1 <=> unicode strings. It uses the rules from [paytan](https://github.com/trhura/paytan) and basically, the ruby converter.
 It's written with TDD. Special thanks to [@steveklabnik](https://github.com/steveklabnik) for his tutorials [How I Start Ruby](http://www.howistart.org/posts/ruby/1).
 
-[![Build Status](https://travis-ci.org/yelinaung/mmfont.svg)](https://travis-ci.org/yelinaung/mmfont)
 
 ## Installation
 

@@ -24,7 +24,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #--
 
-require "mmfont/version"
+require 'mmfont/version'
 
 # Mmfont module
 module Mmfont

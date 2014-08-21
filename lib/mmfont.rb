@@ -137,8 +137,6 @@ module Mmfont
       output_text = output_text.gsub(/(?<=\u1034[\u1036])\u1094/, "\u1095")
       output_text = output_text.gsub(/(?<=[\u103c\u103d\u108a])\u1037/, "\u1095")
       output_text = output_text.gsub(/(?<=[\u103c\u103d\u108a][\u1032])\u1037/, "\u1095")
-      # 'return' is not necessary but it's there to prevent 'end' from auto-indent
-      # return output_text
     end # end of uni to zg1
 
     # Convert given text from zawgyi to unicode
@@ -214,8 +212,6 @@ module Mmfont
       output_text = output_text.gsub(/((?:\u1031)?)([\u1000-\u1021])((?:\u1039[\u1000-\u1021])?)((?:[\u102d\u102e\u1032])?)([\u1036\u1037\u1038]{0,2})([\u103b-\u103d]{0,3})((?:[\u102f\u1030])?)([\u1036\u1037\u1038]{0,2})((?:[\u102d\u102e\u1032])?)/, '\\2\\3\\6\\1\\4\\9\\7\\5\\8')
       output_text = output_text.gsub(/\u1036\u102f/, "\u102f\u1036")
       output_text = output_text.gsub(/(\u103a)(\u1037)/, '\\2\\1')
-      # 'return' is not necessary but it's there to prevent 'end' from auto-indent
-      # return output_text
     end # end of zg1 to uni
   end # end of class
 end # end of module

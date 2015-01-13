@@ -68,7 +68,7 @@ module Mmfont
       output_text = output_text.gsub(/(?<=\u103c)\u103e/, "\u1087")
       output_text = output_text.gsub(/\u1009(?=[\u103a])/, "\u1025")
       output_text = output_text.gsub(/\u1009(?=\u1039[\u1000-\u1021])/, "\u1025")
-      output_text = output_text.gsub(/([\u1000-\u1021\u1029])((?:\u1039[\u1000-\u1021])?)((?:[\u103b-\u103e\u1087]*)?)\u1031/, "\u1031\\1\\2\\3")
+      output_text = output_text.gsub(/([\u1000-\u1021\u1029])((?:\u1039[\u1000-\u1021])?)((?:[\u103b-\u103e\u1087])?)\u1031/, "\u1031\\1\\2\\3")
       output_text = output_text.gsub(/([\u1000-\u1021\u1029])((?:\u1039[\u1000-\u1021\u1000-\u1021])?)(\u103c)/, "\\3\\1\\2")
       output_text = output_text.gsub(/\u1004\u103a\u1039/, "\u1064")
       output_text = output_text.gsub(/(\u1064)((?:\u1031)?)((?:\u103c)?)([\u1000-\u1021])\u102d/, "\\2\\3\\4\u108b")

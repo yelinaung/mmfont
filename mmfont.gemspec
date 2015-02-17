@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Mmfont::VERSION
   spec.authors       = ['Ye Lin Aung']
   spec.email         = ['me@yelinaung.com']
-  spec.summary       = %q{Myanmar font converter.}
-  spec.description   = %q{Myanmar font toolkit in Ruby.}
+  spec.summary       = 'Myanmar font converter.'
+  spec.description   = 'Myanmar font toolkit in Ruby.'
   spec.homepage      = 'https://github.com/yelinaung/mmfont'
   spec.license       = 'MIT'
 

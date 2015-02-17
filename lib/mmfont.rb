@@ -150,7 +150,7 @@ module Mmfont
       output_text = output_text.gsub(/\u108f/ ,"\u1014")
       output_text = output_text.gsub(/\u1012/ ,"\u1012")
       output_text = output_text.gsub(/\u1013/ ,"\u1013")
-      output_text = output_text.gsub(/[\u103d\u1087]/ ,"\u103d")
+      output_text = output_text.gsub(/[\u103d\u1087]/ ,"\u103e")
       output_text = output_text.gsub(/\u103c/ ,"\u103d")
       output_text = output_text.gsub(/[\u103b\u107e\u107f\u1080\u1081\u1082\u1083\u1084]/ ,"\u103c")
       output_text = output_text.gsub(/[\u103a\u107d]/ ,"\u103b")

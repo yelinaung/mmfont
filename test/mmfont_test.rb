@@ -41,6 +41,6 @@ class MmfontTest < Minitest::Test
   def test_convert_zg12uni51
     assert_equal 'မင်္ဂလာပါ', Mmfont::Converter.new.zg12uni51('မဂၤလာပါ')
     assert_equal 'ဘောလုံးကန်တာမှ ကောင်းဦးမယ်', Mmfont::Converter.new.zg12uni51('ေဘာလုံးကန္တာမွ ေကာင္းဦးမယ္')
-  	assert_equal 'မြန်မာလိုပြောမယ်လကွာ', Mmfont::Converter.new.zg12uni51('ျမန္မာလိုေျပာမယ္လကြာ')
+    assert_equal 'မြန်မာလိုပြောမယ်လကွာ', Mmfont::Converter.new.zg12uni51('ျမန္မာလိုေျပာမယ္လကြာ')
   end
 end

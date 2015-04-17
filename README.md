@@ -34,11 +34,11 @@ $ gem install mmfont
 ```ruby
 require 'mmfont'
 
-a = Mmfont::Converter.new
+mmfont = Mmfont::Converter.new
 
-a.uni512zg1("မင်္ဂလာပါ")  # returns zg strings "မဂၤလာပါ"
+mmfont.uni512zg1("မင်္ဂလာပါ")  # returns zg strings "မဂၤလာပါ"
 
-a.zg12uni51("မဂၤလာပါ")   # returns unicode strings "မင်္ဂလာပါ"
+mmfont.zg12uni51("မဂၤလာပါ")   # returns unicode strings "မင်္ဂလာပါ"
 
 ```
 
